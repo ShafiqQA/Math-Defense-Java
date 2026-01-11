@@ -1,19 +1,20 @@
-# Math Defense: The Box Sorter
+# Math Defense: The Box Sorter 🚀
 
-A Java-based educational game built using the **Swing** library.
+An interactive educational game developed in **Java** using the **Swing** framework. This project challenges students to solve mental math problems under pressure using strategic planning.
 
-## 🚀 How to Play
-- Drag falling orange balls into the correct boxes.
-- Match the **Target Sum** while staying within the **Number Range**.
-- Catch green balls to regain health.
-- Avoid letting useful balls hit the floor!
+## 🌟 Key Features
+* **Dynamic Difficulty Scaling**: Target sums and number ranges increase every 3 waves to maintain an educational challenge.
+* **Boss Level Mechanics**: Every 6 boxes, players face a high-stakes "Boss Level" requiring 10-slot mathematical decomposition.
+* **Look-Ahead Validation**: An internal logic engine prevents "unsolvable" states by calculating the math of future moves before spawning numbers.
+* **Health & Time Management**: Real-time feedback via a custom UI with health bars and countdown timers.
 
-## 🛠️ Technical Features
-- **60 FPS Game Loop**: Handled via `javax.swing.Timer`.
-- **Strategic Logic**: Look-ahead algorithm to prevent unsolvable math states.
-- **Dynamic Difficulty**: Scaling ranges and faster timers as you progress.
+## 🛠️ Technical Implementation
+* **Language**: Java
+* **Graphics**: Java Swing / AWT (Graphics2D)
+* **Engine**: Custom 60FPS Game Loop using `javax.swing.Timer`
+* **Version Control**: Git-managed repository with professional cleanup and .gitignore practices
 
-## 💻 Setup
-1. Clone the repository: `git clone https://github.com/ShafiqQA/Math-Defense-Java`
-2. Compile: `javac javaSwingFinalProect/MathDefense.java`
-3. Run: `java javaSwingFinalProect.MathDefense`
+## 🚀 Getting Started
+1. Clone the repo: `git clone https://github.com/ShafiqQA/Math-Defense-Java.git`
+2. Compile: `javac src/MathDefense.java`
+3. Run: `java src.MathDefense`
