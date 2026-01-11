@@ -18,3 +18,7 @@ An interactive educational game developed in **Java** using the **Swing** framew
 1. Clone the repo: `git clone https://github.com/ShafiqQA/Math-Defense-Java.git`
 2. Compile: `javac src/MathDefense.java`
 3. Run: `java src.MathDefense`
+
+## 👥 Contributors
+* **Shafiqullah Qaweem** - Lead Logic & Math Engine
+* **Wajih Ul Hassan Raies** - UI Design & Game Flow
